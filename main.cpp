@@ -1,9 +1,16 @@
 #include <iostream>
+#include <fstream>
 
 using namespace std;
 
+ifstream fin("input.txt");
+ofstream fout("output.txt");
+
 int main()
 {
-  cout << "Hello Worldd!" << endl;
-  return 1;
+    int a, b;
+    fin >> a >> b;
+    fout << a + b;
+    
+    return 0;
 }
