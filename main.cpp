@@ -10,7 +10,7 @@ int main()
 {
     int a = 0, b = 0;
     fin >> a >> b;
-    fout << a + b;
+    fout << a + b - 1;
     
     return 0;
 }
