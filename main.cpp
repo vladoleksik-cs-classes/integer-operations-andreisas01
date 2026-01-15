@@ -8,7 +8,7 @@ ofstream fout("output.txt");
 
 int main()
 {
-    int a, b;
+    int a = 0, b = 0;
     fin >> a >> b;
     fout << a + b;
     
